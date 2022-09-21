@@ -1,0 +1,26 @@
+{
+    "appName": "Traxy Admin",
+    "base_url": "http://localhost:8590/",
+    "database": {
+        "host": "cudo.co.id",
+        "user": "postgres",
+        "name": "traxy_iot_config_admin",
+        "db_temporary": "db_temporary",
+        "port":  53902,
+        "password": "Cdc123!@#",
+        "max_idle_connection": 30,
+        "max_lifetime_connection": 30
+    },
+    "server": {
+        "port": 8590,
+        "readheadertimeout": 20,
+        "readtimeout": 60,
+        "writetimeout": 120,
+        "idletimeout": 90
+    },
+    "path_asset_id_file": "assets/images/",
+    "path_foto_product":"views/assets/image/product/",
+    "path_foto_sim":"views/assets/image/image_sim/",
+    "path_image_notfound":"views/assets/image/",
+    "path_foto_sn":"views/assets/image/image_sn/"
+}

@@ -1,0 +1,21 @@
+{
+    "appName": "SMARTPATROL-SERVICES",
+    "base_url": "http://localhost:8590/",
+    "database": {
+        "host": "cudo.co.id",
+        "user": "postgres",
+        "name": "db_temporary",
+        "port": 53902,
+        "password": "Cdc123!@#",
+        "max_idle_connection": 30,
+        "max_lifetime_connection": 30
+    },
+    "server": {
+        "port": 8590,
+        "readheadertimeout": 20,
+        "readtimeout": 60,
+        "writetimeout": 120,
+        "idletimeout": 90
+    },
+    "path_asset_id_file": "assets/images/"
+}
